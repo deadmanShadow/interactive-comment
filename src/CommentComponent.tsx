@@ -41,8 +41,8 @@ const CommentComponent: React.FC = () => {
   const [replyingTo, setReplyingTo] = useState<number | null>(null);
   const currentUser: CurrentUser = {
     image: {
-      png: "/src/images/avatars/image-juliusomo.png",
-      webp: "/src/images/avatars/image-juliusomo.webp",
+      png: "/image-juliusomo.png",
+      webp: "/image-juliusomo.webp",
     },
     username: "juliusomo",
   };
@@ -55,8 +55,8 @@ const CommentComponent: React.FC = () => {
       score: 0,
       user: {
         image: {
-          png: "/src/images/avatars/image-amyrobson.png",
-          webp: "/src/images/avatars/image-amyrobson.webp",
+          png: "/image-amyrobson.png",
+          webp: "/image-amyrobson.webp",
         },
         username: "amyrobson",
       },
@@ -70,8 +70,8 @@ const CommentComponent: React.FC = () => {
       score: 0,
       user: {
         image: {
-          png: "/src/images/avatars/image-maxblagun.png",
-          webp: "/src/images/avatars/image-maxblagun.webp",
+          png: "/image-maxblagun.png",
+          webp: "/image-maxblagun.webp",
         },
         username: "maxblagun",
       },
@@ -85,8 +85,8 @@ const CommentComponent: React.FC = () => {
       score: 0,
       user: {
         image: {
-          png: "/src/images/avatars/image-ramsesmiron.png",
-          webp: "/src/images/avatars/image-ramsesmiron.webp",
+          png: "/image-ramsesmiron.png",
+          webp: "/image-ramsesmiron.webp",
         },
         username: "ramsesmiron",
       },
@@ -100,8 +100,8 @@ const CommentComponent: React.FC = () => {
       score: 0,
       user: {
         image: {
-          png: "/src/images/avatars/image-juliusomo.png",
-          webp: "/src/images/avatars/image-juliusomo.webp",
+          png: "/image-juliusomo.png",
+          webp: "/image-juliusomo.webp",
         },
         username: "juliusomo",
       },
